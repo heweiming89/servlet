@@ -13,7 +13,7 @@ import cn.heweiming.servlet.domain.User;
 /**
  * Servlet implementation class CommonServlet
  */
-@WebServlet(asyncSupported = true, urlPatterns = { "/common" })
+@WebServlet(urlPatterns = { "/common" })
 public class CommonServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
